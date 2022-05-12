@@ -1,0 +1,298 @@
+ERROR - 2022-03-19 08:30:36 --> Table 'db_iventaris.buku' doesn't exist
+CRITICAL - 2022-03-19 08:30:36 --> Table 'db_iventaris.buku' doesn't exist
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->index()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-03-19 08:31:19 --> Table 'db_iventaris.buku' doesn't exist
+CRITICAL - 2022-03-19 08:31:19 --> Table 'db_iventaris.buku' doesn't exist
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->index()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-03-19 08:31:30 --> Table 'db_iventaris.buku' doesn't exist
+CRITICAL - 2022-03-19 08:31:30 --> Table 'db_iventaris.buku' doesn't exist
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->index()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-03-19 08:32:26 --> Table 'db_iventaris.buku' doesn't exist
+CRITICAL - 2022-03-19 08:32:26 --> Table 'db_iventaris.buku' doesn't exist
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->index()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-03-19 08:43:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->index()
+#1 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#2 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+ERROR - 2022-03-19 08:44:10 --> Table 'db_iventaris.buku' doesn't exist
+CRITICAL - 2022-03-19 08:44:10 --> Table 'db_iventaris.buku' doesn't exist
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-03-19 08:45:41 --> Table 'db_iventaris.buku' doesn't exist
+CRITICAL - 2022-03-19 08:45:41 --> Table 'db_iventaris.buku' doesn't exist
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-03-19 08:45:50 --> Table 'db_iventaris.buku' doesn't exist
+CRITICAL - 2022-03-19 08:45:50 --> Table 'db_iventaris.buku' doesn't exist
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 09:32:26 --> Undefined variable: validation
+#0 C:\laragon\www\Perpustakaan\app\Views\buku\create.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('buku/create', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(26): view('buku/create', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 10:38:02 --> Undefined index: juudl
+#0 C:\laragon\www\Perpustakaan\app\Views\buku\edit.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('buku/edit', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(120): view('buku/edit', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->edit('517010101')
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 11:07:40 --> Invalid file: pegawai/index.php
+#0 C:\laragon\www\Perpustakaan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawai/index.p...')
+#1 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#2 C:\laragon\www\Perpustakaan\app\Controllers\Siswa.php(20): view('pegawai/index', Array)
+#3 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Siswa->index()
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-19 11:08:56 --> Undefined index: poto
+#0 C:\laragon\www\Perpustakaan\app\Views\siswa\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 31, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('siswa/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Siswa.php(20): view('siswa/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Siswa->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 11:23:51 --> Invalid file: pegawai/create.php
+#0 C:\laragon\www\Perpustakaan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pegawai/create....')
+#1 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/create', Array, true)
+#2 C:\laragon\www\Perpustakaan\app\Controllers\Siswa.php(28): view('pegawai/create', Array)
+#3 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Siswa->create()
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-19 19:23:47 --> Invalid file: peminjaman/create.php
+#0 C:\laragon\www\Perpustakaan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/crea...')
+#1 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#2 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(31): view('peminjaman/crea...', Array)
+#3 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->create()
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-19 19:25:36 --> Invalid file: peminjaman/create.php
+#0 C:\laragon\www\Perpustakaan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjaman/crea...')
+#1 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#2 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(31): view('peminjaman/crea...', Array)
+#3 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->create()
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-19 19:26:34 --> Undefined variable: pegawai
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjam\create.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 22, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/create', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(31): view('peminjam/create', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 19:27:17 --> Undefined index: nama_buku
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjam\create.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 32, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/create', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(31): view('peminjam/create', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 19:51:50 --> Undefined index: judul
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjam\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(19): view('peminjam/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 19:52:21 --> Undefined index: judul
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjam\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(19): view('peminjam/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 19:52:27 --> Undefined index: judul
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjam\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(19): view('peminjam/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 19:52:36 --> Undefined index: judul
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjam\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(19): view('peminjam/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 19:52:51 --> Undefined index: judul
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjam\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(19): view('peminjam/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 19:53:04 --> Undefined index: judul
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjam\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(19): view('peminjam/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 19:53:22 --> Undefined index: judul
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjam\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 36, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(19): view('peminjam/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-19 20:21:07 --> Invalid file: peminjam/create.php
+#0 C:\laragon\www\Perpustakaan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjam/create...')
+#1 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/create', Array, true)
+#2 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(31): view('peminjam/create', Array)
+#3 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->create()
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-03-19 20:22:07 --> Invalid file: peminjam/create.php
+#0 C:\laragon\www\Perpustakaan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('peminjam/create...')
+#1 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjam/create', Array, true)
+#2 C:\laragon\www\Perpustakaan\app\Controllers\Peminjam.php(31): view('peminjam/create', Array)
+#3 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjam->create()
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjam))
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}

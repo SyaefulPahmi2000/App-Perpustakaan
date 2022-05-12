@@ -1,0 +1,48 @@
+CRITICAL - 2022-04-05 06:21:40 --> Undefined index: kode_buku
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/inde...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(23): view('peminjaman/inde...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-05 06:23:01 --> Undefined index: kode_buku
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 61, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/inde...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(23): view('peminjaman/inde...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-05 06:23:44 --> Undefined index: kod_peminjam
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 61, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/inde...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(23): view('peminjaman/inde...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-05 06:23:57 --> Undefined index: kode_buku
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\index.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 56, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/inde...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(23): view('peminjaman/inde...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}

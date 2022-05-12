@@ -1,0 +1,38 @@
+CRITICAL - 2022-04-16 08:42:56 --> Undefined variable: siswa
+#0 C:\laragon\www\Perpustakaan\app\Views\siswa\create.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 42, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('siswa/create', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Siswa.php(28): view('siswa/create', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Siswa->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-16 09:41:55 --> Duplicate entry '2147483647' for key 'PRIMARY'
+CRITICAL - 2022-04-16 09:41:55 --> Duplicate entry '2147483647' for key 'PRIMARY'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bu...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->save()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-16 09:42:21 --> Duplicate entry '2147483647' for key 'PRIMARY'
+CRITICAL - 2022-04-16 09:42:21 --> Duplicate entry '2147483647' for key 'PRIMARY'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bu...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->save()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}

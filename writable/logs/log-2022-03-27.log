@@ -1,0 +1,201 @@
+CRITICAL - 2022-03-27 11:10:52 --> syntax error, unexpected '$kode' (T_VARIABLE), expecting ';' or '{'
+#0 C:\laragon\www\Perpustakaan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('peminjaman/crea...')
+#1 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('peminjaman/crea...')
+#2 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+ERROR - 2022-03-27 11:15:22 --> Unknown column 'kode_barang' in 'where clause'
+CRITICAL - 2022-03-27 11:15:22 --> Unknown column 'kode_barang' in 'where clause'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-03-27 11:34:03 --> Unknown column 'peminjam.NIS' in 'on clause'
+CRITICAL - 2022-03-27 11:34:03 --> Unknown column 'peminjam.NIS' in 'on clause'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->index()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-03-27 11:34:06 --> Undefined variable: barang
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(34): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-27 11:34:08 --> Undefined variable: barang
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(34): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-03-27 11:34:10 --> Unknown column 'peminjam.NIS' in 'on clause'
+CRITICAL - 2022-03-27 11:34:10 --> Unknown column 'peminjam.NIS' in 'on clause'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->index()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-03-27 11:34:20 --> Unknown column 'peminjam.NIS' in 'on clause'
+CRITICAL - 2022-03-27 11:34:20 --> Unknown column 'peminjam.NIS' in 'on clause'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->index()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-03-27 11:37:07 --> Unknown column 'peminjam.NIS' in 'on clause'
+CRITICAL - 2022-03-27 11:37:07 --> Unknown column 'peminjam.NIS' in 'on clause'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->index()
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-03-27 11:41:58 --> Undefined variable: barang
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(33): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-27 16:39:43 --> Undefined index: nama_peminjam
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 30, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(33): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-27 16:40:33 --> Undefined index: nama_peminjam
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 30, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(33): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-27 16:40:59 --> Undefined variable: peminjam
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 29, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(33): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-27 16:42:13 --> Undefined index: nama_buku
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(33): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-27 16:44:33 --> Undefined index: nama_buku
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(33): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-27 16:44:44 --> Undefined index: nama_buku
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(33): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-03-27 16:46:23 --> Undefined index: id_pegawai
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 48, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(33): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-03-27 16:48:33 --> Duplicate entry '1233' for key 'PRIMARY'
+CRITICAL - 2022-03-27 16:48:33 --> Duplicate entry '1233' for key 'PRIMARY'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(62): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}

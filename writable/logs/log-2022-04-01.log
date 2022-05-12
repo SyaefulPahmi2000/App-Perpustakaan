@@ -1,0 +1,169 @@
+CRITICAL - 2022-04-01 09:21:29 --> Undefined index: password
+#0 C:\laragon\www\Perpustakaan\app\Views\petugas\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('petugas/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Petugas.php(19): view('petugas/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Petugas->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-01 17:34:21 --> Undefined index: katagori
+#0 C:\laragon\www\Perpustakaan\app\Views\buku\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('buku/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(19): view('buku/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-01 17:35:58 --> Undefined index: katagori
+#0 C:\laragon\www\Perpustakaan\app\Views\buku\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('buku/index', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(19): view('buku/index', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->index()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-01 17:36:31 --> Undefined index: katagori
+#0 C:\laragon\www\Perpustakaan\app\Views\buku\edit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('buku/edit', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Buku.php(120): view('buku/edit', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Buku->edit('507010101')
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-01 18:58:38 --> The original file is not a valid file.
+#0 C:\laragon\www\Perpustakaan\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\laragon\www\Perpustakaan\app\Controllers\Siswa.php(75): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/', '1648857518_e1d5...')
+#2 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Siswa->save()
+#3 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-04-01 19:02:38 --> The original file is not a valid file.
+#0 C:\laragon\www\Perpustakaan\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\laragon\www\Perpustakaan\app\Controllers\Siswa.php(75): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/', '1648857758_256c...')
+#2 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Siswa->save()
+#3 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-04-01 20:08:01 --> Undefined index: judul
+#0 C:\laragon\www\Perpustakaan\app\Views\peminjaman\create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\Perpustakaan\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/crea...', Array, true)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(35): view('peminjaman/crea...', Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->create()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-01 20:14:33 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-04-01 20:14:33 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(64): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-01 20:16:49 --> Column 'kode_peminjam' cannot be null
+CRITICAL - 2022-04-01 20:16:49 --> Column 'kode_peminjam' cannot be null
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-01 20:30:31 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-04-01 20:30:31 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-01 20:32:32 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-04-01 20:32:32 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-01 20:39:01 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-04-01 20:39:01 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-01 20:40:42 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-04-01 20:40:42 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-01 20:41:15 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-04-01 20:41:15 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\laragon\www\Perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(65): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->save()
+#6 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}

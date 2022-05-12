@@ -1,0 +1,26 @@
+ERROR - 2022-04-06 03:02:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-06 03:02:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laragon\www\Perpustakaan\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\Perpustakaan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\Perpustakaan\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\Perpustakaan\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\laragon\www\Perpustakaan\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 C:\laragon\www\Perpustakaan\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\laragon\www\Perpustakaan\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2022-04-06 06:03:39 --> Undefined index: Kelas
+#0 C:\laragon\www\Perpustakaan\app\Controllers\Peminjaman.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 120, Array)
+#1 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(825): App\Controllers\Peminjaman->export()
+#2 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Peminjaman))
+#3 C:\laragon\www\Perpustakaan\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
